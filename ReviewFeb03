@@ -1,0 +1,32 @@
+public class ReviewFeb03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int choice = 1;
+		String name = "Truong";
+		double number = 3.14;
+		boolean isHotOutside = false;
+		
+		System.out.println(choice + name);
+		System.out.print(choice + number);
+		
+		if(isHotOutside) {
+			System.out.println("It's hot");
+		}else {
+			System.out.println("It's cold");
+		}
+		
+		if(choice == 1) {//>, <, =>, =<, !=, ==
+			System.out.println("Choice 1");
+		}else if(choice == 2) {
+			System.out.println("choice 2");
+		}else {
+			System.out.println("choice 3");
+		}
+		
+		
+		
+	}
+
+}
